@@ -1,0 +1,10 @@
+# Terraform ignore rules
+**/terraform/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Environment & Editor rules
+.env
+.vscode/
